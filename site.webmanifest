@@ -1,0 +1,26 @@
+{
+  "name": "Phototold",
+  "short_name": "Phototold",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#FFFDF9",
+  "theme_color": "#4F30C4",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
