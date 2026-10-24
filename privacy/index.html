@@ -48,6 +48,7 @@
 <li><strong>Your sessions:</strong> their names and the order of their photos.</li>
 <li><strong>Your purchase:</strong> whether the unlock has been bought.</li>
 <li><strong>On iPhone, the phone's own search:</strong> each kept chapter is added to Spotlight on your phone (its question, date and session), so you can find it from the Home Screen.</li>
+<li><strong>A crash report file:</strong> if the app crashes, a short report is written inside the app on your phone. It is never sent anywhere.</li>
 <li><strong>An event log:</strong> a record of app events on the phone, such as a chapter started or a film saved, used to check that the app works. It holds no names, photos, transcripts or identifiers, and it is never sent anywhere.</li>
 </ul>
 </section>
@@ -55,7 +56,7 @@
 <section aria-labelledby="photos">
 <h2 id="photos">Your photos, the camera and the microphone</h2>
 <ul class="plainlist">
-<li><strong>Photos:</strong> Phototold reads only the photos you choose. On iPhone it asks for access to your photo library, and you can allow all photos or selected ones. On Android you pick photos with the phone's own photo picker, which needs no permission. Phototold never edits, deletes or uploads your photos.</li>
+<li><strong>Photos:</strong> Phototold reads only the photos you choose. You pick photos with the phone's own photo picker, which needs no access to your library. On iPhone, Phototold asks only to add to Photos, when you first save a film. Phototold never edits, deletes or uploads your photos.</li>
 <li><strong>Camera and microphone:</strong> used only to record a chapter, after you start a take. The phone asks for permission the first time.</li>
 <li><strong>The film:</strong> when you tap Make the film, the film is saved to your Photos library on iPhone or to Movies on Android. From then on it is in your own library, under your control.</li>
 <li><strong>Sharing:</strong> a chapter or a film leaves the app only when you tap Share and choose where it goes, in your phone's own share sheet.</li>
@@ -71,7 +72,7 @@
 <h2 id="store">The App Store and Google Play</h2>
 <ul class="plainlist">
 <li><strong>Buying and restoring</strong> the unlock goes through the App Store or Google Play, under Apple's or Google's own privacy policy. We receive no payment details. The app checks your purchase with the store on the phone.</li>
-<li><strong>Age signal:</strong> where a law requires it, Phototold asks the store once, at first launch, for your age range (Apple's Declared Age Range, or Google Play's age signals). Nothing in the app depends on your age, so the answer changes nothing. The app keeps only that the signal was read and which range came back, on your phone.</li>
+<li><strong>Age signal:</strong> where a law requires it, Phototold asks the store for your age range at first launch (or at the next launch, if the store did not answer), and never again after it answers (Apple's Declared Age Range, or Google Play's age signals). Nothing in the app depends on your age, so the answer changes nothing. The app keeps only that the signal was read and which range came back, on your phone.</li>
 <li><strong>Rating:</strong> after a chapter is kept or a film is saved, the app may ask the store to show its own rating prompt.</li>
 <li><strong>Crash reports:</strong> if you have chosen to share analytics with app developers in your phone's settings, Apple or Google may send us their own crash reports. Phototold adds nothing to them.</li>
 </ul>
@@ -79,16 +80,17 @@
 
 <section aria-labelledby="backup">
 <h2 id="backup">Your phone's own backups</h2>
-<p>If your phone backs itself up to your Apple or Google account, that backup is yours, under your account and your provider's terms, and it may include what Phototold keeps. Phototold itself uploads nothing.</p>
+<p>On iPhone, if your phone backs itself up to iCloud, that backup can include what Phototold keeps; it is yours, under your Apple Account and Apple's terms. On Android, Phototold leaves everything out of Google's cloud backup; a phone-to-phone transfer to your new phone can carry your sessions. Phototold itself uploads nothing.</p>
 </section>
 
 <section aria-labelledby="delete">
 <h2 id="delete">Deleting</h2>
 <ul class="plainlist">
 <li><strong>A chapter:</strong> open it and tap Delete this chapter. Its video and transcript are deleted from the phone.</li>
-<li><strong>A session:</strong> delete it from the library. Its chapters and the films Phototold made from it are deleted.</li>
-<li><strong>Everything:</strong> About, then Delete all recordings. It asks twice, then deletes every chapter, transcript and film Phototold made.</li>
-<li><strong>Removing the app</strong> deletes everything kept inside it. Films you already saved to Photos or Movies stay there until you delete them.</li>
+<li><strong>A session:</strong> delete it from the library. Its chapters and Phototold's own copies are deleted. On Android, Phototold also removes the films it saved to Movies, where Android still lets it.</li>
+<li><strong>Everything:</strong> About, then Delete all recordings. It asks twice, then deletes every chapter and transcript kept in Phototold.</li>
+<li><strong>Removing the app</strong> deletes everything kept inside it.</li>
+<li><strong>Saved films:</strong> on iPhone, Phototold may only add to Photos, so a film you already saved there stays until you delete it in Photos. On Android, a film left in Movies stays until you delete it in your gallery.</li>
 </ul>
 <p>Deleting in Phototold never touches your own photos. There is no account, so there is nothing for us to delete: we hold no data about you.</p>
 </section>
